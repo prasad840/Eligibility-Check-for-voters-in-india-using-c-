@@ -1,0 +1,23 @@
+#include<iostream> // including upstream library to carry out necessary operations and for required functions
+
+using namespace std; // using std method
+
+int main() //declaring main function
+{
+int i ;  // declaring variable
+
+cout<<"Enter Your Age : " <<endl;  // asking input of age from user
+
+cin>> i ;  //storing the input
+
+if(i>=18)  // checking the criteria of age 
+{
+cout<<"You are eligible to vote"<<endl;
+}
+
+else{
+cout<<"You are not eligible to vote"<<endl;
+}
+
+return 0;  // terminating main function
+}
